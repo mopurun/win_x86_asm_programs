@@ -1,1 +1,2 @@
 
+GetCurrentDirectoryAを実行してメッセージボックスに表示してみました。
