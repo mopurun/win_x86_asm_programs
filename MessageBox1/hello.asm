@@ -16,6 +16,6 @@ TEXT		DB 'hello, world', 0
 mainCRTStartup	proc
 	invoke MessageBoxA, NULL, offset TEXT, offset CAPTION, MB_OK
 	invoke ExitProcess, 0
-	ret
+	
 mainCRTStartup	endp
 end
